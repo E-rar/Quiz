@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+*{
+    font-family: Comfortaa;
+}
+h1{
+    text-align: center;//quiz
+    font-size: 3em;
+}
+div{
+    height:90vh;
+    text-align: center;
+    margin:5% 0;
+    div { //ChildDivs die die choices beinalten 
+        display:flex;
+        justify-content:space-evenly;
+        div{
+            background-color: rgb(87, 87, 87);
+            height:10%;
+            width:20%;
+            text-align: center;
+            color:white;
+            &:hover{
+                cursor:pointer;
+                background-color: rgb(134, 134, 134);
+            }
+            p{
+                font-size: 1.2em;
+                padding:5% 5% 5% 5%;
+            }
+        }
+    }
+}
+#childDiv9{
+    height:70vh;
+}

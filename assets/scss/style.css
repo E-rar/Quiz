@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap");
+* {
+  font-family: Comfortaa;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+div {
+  height: 90vh;
+  text-align: center;
+  margin: 5% 0;
+}
+
+div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+div div div {
+  background-color: #575757;
+  height: 10%;
+  width: 20%;
+  text-align: center;
+  color: white;
+}
+
+div div div:hover {
+  cursor: pointer;
+  background-color: #868686;
+}
+
+div div div p {
+  font-size: 1.2em;
+  padding: 5% 5% 5% 5%;
+}
+
+#childDiv9 {
+  height: 70vh;
+}
+/*# sourceMappingURL=style.css.map */
